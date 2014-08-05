@@ -1,0 +1,968 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F63F9D8717C482EBDB52B86 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA52780DAD764417B72B984B /* libPods.a */; };
+		F511A70C198BB55C004DEB99 /* LANENAR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F511A70B198BB3DE004DEB99 /* LANENAR.ttf */; };
+		F511A70D198BB568004DEB99 /* DINBek.TTF in Resources */ = {isa = PBXBuildFile; fileRef = F511A70A198BB0F4004DEB99 /* DINBek.TTF */; };
+		F511A70F198BB9E3004DEB99 /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F511A70E198BB9E3004DEB99 /* clock@2x.png */; };
+		F511A711198BBA93004DEB99 /* heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F511A710198BBA93004DEB99 /* heart@2x.png */; };
+		F511A713198BBB39004DEB99 /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F511A712198BBB39004DEB99 /* location@2x.png */; };
+		F511A716198BBB9C004DEB99 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = F511A714198BBB9C004DEB99 /* menu.png */; };
+		F511A717198BBB9C004DEB99 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F511A715198BBB9C004DEB99 /* menu@2x.png */; };
+		F511A71C198C2EDA004DEB99 /* TLWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F511A71A198C2EDA004DEB99 /* TLWebViewController.m */; };
+		F511A71D198C2EDA004DEB99 /* TLWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F511A71B198C2EDA004DEB99 /* TLWebViewController.xib */; };
+		F511A734198C3201004DEB99 /* InstagramEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F511A722198C3201004DEB99 /* InstagramEngine.m */; };
+		F511A735198C3201004DEB99 /* InstagramKit.plist in Resources */ = {isa = PBXBuildFile; fileRef = F511A724198C3201004DEB99 /* InstagramKit.plist */; };
+		F511A736198C3201004DEB99 /* IKUserInPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = F511A727198C3201004DEB99 /* IKUserInPhoto.m */; };
+		F511A737198C3201004DEB99 /* InstagramComment.m in Sources */ = {isa = PBXBuildFile; fileRef = F511A729198C3201004DEB99 /* InstagramComment.m */; };
+		F511A738198C3201004DEB99 /* InstagramMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = F511A72B198C3201004DEB99 /* InstagramMedia.m */; };
+		F511A739198C3201004DEB99 /* InstagramModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F511A72D198C3201004DEB99 /* InstagramModel.m */; };
+		F511A73A198C3201004DEB99 /* InstagramPaginationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F511A72F198C3201004DEB99 /* InstagramPaginationInfo.m */; };
+		F511A73B198C3201004DEB99 /* InstagramTag.m in Sources */ = {isa = PBXBuildFile; fileRef = F511A731198C3201004DEB99 /* InstagramTag.m */; };
+		F511A73C198C3201004DEB99 /* InstagramUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F511A733198C3201004DEB99 /* InstagramUser.m */; };
+		F511A74A198C398D004DEB99 /* TLUserSession.m in Sources */ = {isa = PBXBuildFile; fileRef = F511A749198C398D004DEB99 /* TLUserSession.m */; };
+		F547AFD4198AE228009763B1 /* TLFeedCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F547AFD2198AE228009763B1 /* TLFeedCellViewController.m */; };
+		F547AFD5198AE228009763B1 /* TLFeedCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F547AFD3198AE228009763B1 /* TLFeedCellViewController.xib */; };
+		F547AFDB198AE321009763B1 /* feedPhotoOne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F547AFDA198AE321009763B1 /* feedPhotoOne.jpg */; };
+		F547AFDD198AE545009763B1 /* feedPhotoOneUser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F547AFDC198AE545009763B1 /* feedPhotoOneUser.jpg */; };
+		F547AFE1198AE823009763B1 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = F547AFE0198AE823009763B1 /* clock.png */; };
+		F547AFE7198AEA8E009763B1 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = F547AFE6198AEA8E009763B1 /* heart.png */; };
+		F547AFE9198AED4E009763B1 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = F547AFE8198AED4E009763B1 /* location.png */; };
+		F547AFED198AEF7E009763B1 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = F547AFEC198AEF7E009763B1 /* plus.png */; };
+		F547AFEF198AF005009763B1 /* waste.png in Resources */ = {isa = PBXBuildFile; fileRef = F547AFEE198AF005009763B1 /* waste.png */; };
+		F547AFF7198AF361009763B1 /* TLFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F547AFF5198AF361009763B1 /* TLFeedViewController.m */; };
+		F547AFF8198AF361009763B1 /* TLFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F547AFF6198AF361009763B1 /* TLFeedViewController.xib */; };
+		F547AFFB198AFFFF009763B1 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = F547AFFA198AFFFF009763B1 /* back.png */; };
+		F54EED6B198D988700165384 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = F54EED6A198D988700165384 /* close.png */; };
+		F54EED6D198DB2A400165384 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54EED6C198DB2A400165384 /* MapKit.framework */; };
+		F57E8956198E5B51005542BE /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F57E8955198E5B51005542BE /* close@2x.png */; };
+		F57E895B198E5D1C005542BE /* TLAddPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57E8959198E5D1C005542BE /* TLAddPhotosViewController.m */; };
+		F57E895C198E5D1C005542BE /* TLAddPhotosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57E895A198E5D1C005542BE /* TLAddPhotosViewController.xib */; };
+		F57E896B198E9F75005542BE /* TLAddPhotosCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57E896A198E9F75005542BE /* TLAddPhotosCollectionViewCell.xib */; };
+		F5AA49C8198C3A80004C431D /* LightenDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5AA49C6198C3A80004C431D /* LightenDB.xcdatamodeld */; };
+		F5AA49CC198C3BF7004C431D /* TLUserSession+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AA49CB198C3BF7004C431D /* TLUserSession+Create.m */; };
+		F5C5797D198EEFF5009899AA /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = F5C5797B198EEFF5009899AA /* checkmark.png */; };
+		F5C5797E198EEFF5009899AA /* checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5C5797C198EEFF5009899AA /* checkmark@2x.png */; };
+		F5C57982198EF2F6009899AA /* TLClickedCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C57981198EF2F6009899AA /* TLClickedCollectionViewCell.m */; };
+		F5C57985198EF6D4009899AA /* cellPlaceholderImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F5C57983198EF6D4009899AA /* cellPlaceholderImage.png */; };
+		F5C57986198EF6D4009899AA /* cellPlaceholderImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5C57984198EF6D4009899AA /* cellPlaceholderImage@2x.png */; };
+		F5C5798A198EFFEB009899AA /* TLFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C57989198EFFEB009899AA /* TLFeed.m */; };
+		F5C5798D198F0006009899AA /* TLFeed+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C5798C198F0006009899AA /* TLFeed+Create.m */; };
+		F5C57997198FD8B2009899AA /* feedPlaceholderImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F5C57995198FD8B2009899AA /* feedPlaceholderImage.png */; };
+		F5C57998198FD8B2009899AA /* feedPlaceholderImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5C57996198FD8B2009899AA /* feedPlaceholderImage@2x.png */; };
+		F5C5799E19901741009899AA /* TLFeed+Delete.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C5799D19901741009899AA /* TLFeed+Delete.m */; };
+		F5C6CADF19903AEF00A5A526 /* TLHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C6CADD19903AEF00A5A526 /* TLHelpViewController.m */; };
+		F5C6CAE019903AEF00A5A526 /* TLHelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5C6CADE19903AEF00A5A526 /* TLHelpViewController.xib */; };
+		F5DAB860198C530E00135A9D /* noPhoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5DAB85E198C530E00135A9D /* noPhoto.jpg */; };
+		F5DAB861198C530E00135A9D /* noPhotoUser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5DAB85F198C530E00135A9D /* noPhotoUser.jpg */; };
+		F5E0AAEF198EAF420074639F /* TLAddPhotosCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0AAEE198EAF420074639F /* TLAddPhotosCollectionViewCell.m */; };
+		F5E0AAF3198EB1C00074639F /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E0AAF2198EB1C00074639F /* AsyncImageView.m */; };
+		F5F079BB198AD99500B5D665 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F079BA198AD99500B5D665 /* Foundation.framework */; };
+		F5F079BD198AD99500B5D665 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F079BC198AD99500B5D665 /* CoreGraphics.framework */; };
+		F5F079BF198AD99500B5D665 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F079BE198AD99500B5D665 /* UIKit.framework */; };
+		F5F079C1198AD99500B5D665 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F079C0198AD99500B5D665 /* CoreData.framework */; };
+		F5F079C7198AD99500B5D665 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5F079C5198AD99500B5D665 /* InfoPlist.strings */; };
+		F5F079C9198AD99500B5D665 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F079C8198AD99500B5D665 /* main.m */; };
+		F5F079CD198AD99500B5D665 /* TLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F079CC198AD99500B5D665 /* TLAppDelegate.m */; };
+		F5F079D2198AD99500B5D665 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F079D1198AD99500B5D665 /* Images.xcassets */; };
+		F5F079D9198AD99500B5D665 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F079D8198AD99500B5D665 /* XCTest.framework */; };
+		F5F079DA198AD99500B5D665 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F079BA198AD99500B5D665 /* Foundation.framework */; };
+		F5F079DB198AD99500B5D665 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F079BE198AD99500B5D665 /* UIKit.framework */; };
+		F5F079DC198AD99500B5D665 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F079C0198AD99500B5D665 /* CoreData.framework */; };
+		F5F079E4198AD99500B5D665 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5F079E2198AD99500B5D665 /* InfoPlist.strings */; };
+		F5F079E6198AD99500B5D665 /* LightenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F079E5198AD99500B5D665 /* LightenTests.m */; };
+		F5F079F4198AD9FE00B5D665 /* TLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F079F2198AD9FE00B5D665 /* TLLoginViewController.m */; };
+		F5F079F5198AD9FE00B5D665 /* TLLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5F079F3198AD9FE00B5D665 /* TLLoginViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5F079DD198AD99500B5D665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5F079AF198AD99500B5D665 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5F079B6198AD99500B5D665;
+			remoteInfo = Lighten;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F532557239043F39871B882 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		DA52780DAD764417B72B984B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F511A70A198BB0F4004DEB99 /* DINBek.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = DINBek.TTF; path = Assets/Fonts/DINBek.TTF; sourceTree = "<group>"; };
+		F511A70B198BB3DE004DEB99 /* LANENAR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = LANENAR.ttf; path = Assets/Fonts/LANENAR.ttf; sourceTree = "<group>"; };
+		F511A70E198BB9E3004DEB99 /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clock@2x.png"; path = "Assets/Img/clock@2x.png"; sourceTree = "<group>"; };
+		F511A710198BBA93004DEB99 /* heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "heart@2x.png"; path = "Assets/Img/heart@2x.png"; sourceTree = "<group>"; };
+		F511A712198BBB39004DEB99 /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "location@2x.png"; path = "Assets/Img/location@2x.png"; sourceTree = "<group>"; };
+		F511A714198BBB9C004DEB99 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = Assets/Img/menu.png; sourceTree = "<group>"; };
+		F511A715198BBB9C004DEB99 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu@2x.png"; path = "Assets/Img/menu@2x.png"; sourceTree = "<group>"; };
+		F511A719198C2EDA004DEB99 /* TLWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLWebViewController.h; path = Classes/Web/TLWebViewController.h; sourceTree = "<group>"; };
+		F511A71A198C2EDA004DEB99 /* TLWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLWebViewController.m; path = Classes/Web/TLWebViewController.m; sourceTree = "<group>"; };
+		F511A71B198C2EDA004DEB99 /* TLWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TLWebViewController.xib; path = Classes/Web/TLWebViewController.xib; sourceTree = "<group>"; };
+		F511A721198C3201004DEB99 /* InstagramEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramEngine.h; sourceTree = "<group>"; };
+		F511A722198C3201004DEB99 /* InstagramEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramEngine.m; sourceTree = "<group>"; };
+		F511A723198C3201004DEB99 /* InstagramKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramKit.h; sourceTree = "<group>"; };
+		F511A724198C3201004DEB99 /* InstagramKit.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InstagramKit.plist; sourceTree = "<group>"; };
+		F511A726198C3201004DEB99 /* IKUserInPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKUserInPhoto.h; sourceTree = "<group>"; };
+		F511A727198C3201004DEB99 /* IKUserInPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKUserInPhoto.m; sourceTree = "<group>"; };
+		F511A728198C3201004DEB99 /* InstagramComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramComment.h; sourceTree = "<group>"; };
+		F511A729198C3201004DEB99 /* InstagramComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramComment.m; sourceTree = "<group>"; };
+		F511A72A198C3201004DEB99 /* InstagramMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramMedia.h; sourceTree = "<group>"; };
+		F511A72B198C3201004DEB99 /* InstagramMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramMedia.m; sourceTree = "<group>"; };
+		F511A72C198C3201004DEB99 /* InstagramModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramModel.h; sourceTree = "<group>"; };
+		F511A72D198C3201004DEB99 /* InstagramModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramModel.m; sourceTree = "<group>"; };
+		F511A72E198C3201004DEB99 /* InstagramPaginationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramPaginationInfo.h; sourceTree = "<group>"; };
+		F511A72F198C3201004DEB99 /* InstagramPaginationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramPaginationInfo.m; sourceTree = "<group>"; };
+		F511A730198C3201004DEB99 /* InstagramTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramTag.h; sourceTree = "<group>"; };
+		F511A731198C3201004DEB99 /* InstagramTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramTag.m; sourceTree = "<group>"; };
+		F511A732198C3201004DEB99 /* InstagramUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramUser.h; sourceTree = "<group>"; };
+		F511A733198C3201004DEB99 /* InstagramUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramUser.m; sourceTree = "<group>"; };
+		F511A748198C398D004DEB99 /* TLUserSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLUserSession.h; path = "Classes/Core Data Models/TLUserSession.h"; sourceTree = "<group>"; };
+		F511A749198C398D004DEB99 /* TLUserSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLUserSession.m; path = "Classes/Core Data Models/TLUserSession.m"; sourceTree = "<group>"; };
+		F547AFD1198AE228009763B1 /* TLFeedCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLFeedCellViewController.h; path = "Classes/Feed Cell/TLFeedCellViewController.h"; sourceTree = "<group>"; };
+		F547AFD2198AE228009763B1 /* TLFeedCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLFeedCellViewController.m; path = "Classes/Feed Cell/TLFeedCellViewController.m"; sourceTree = "<group>"; };
+		F547AFD3198AE228009763B1 /* TLFeedCellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TLFeedCellViewController.xib; path = "Classes/Feed Cell/TLFeedCellViewController.xib"; sourceTree = "<group>"; };
+		F547AFDA198AE321009763B1 /* feedPhotoOne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = feedPhotoOne.jpg; path = Assets/Img/feedPhotoOne.jpg; sourceTree = "<group>"; };
+		F547AFDC198AE545009763B1 /* feedPhotoOneUser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = feedPhotoOneUser.jpg; path = Assets/Img/feedPhotoOneUser.jpg; sourceTree = "<group>"; };
+		F547AFE0198AE823009763B1 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clock.png; path = Assets/Img/clock.png; sourceTree = "<group>"; };
+		F547AFE6198AEA8E009763B1 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heart.png; path = Assets/Img/heart.png; sourceTree = "<group>"; };
+		F547AFE8198AED4E009763B1 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location.png; path = Assets/Img/location.png; sourceTree = "<group>"; };
+		F547AFEA198AEEFD009763B1 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = Assets/Img/menu.png; sourceTree = "<group>"; };
+		F547AFEC198AEF7E009763B1 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plus.png; path = Assets/Img/plus.png; sourceTree = "<group>"; };
+		F547AFEE198AF005009763B1 /* waste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = waste.png; path = Assets/Img/waste.png; sourceTree = "<group>"; };
+		F547AFF4198AF361009763B1 /* TLFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLFeedViewController.h; path = Classes/Feed/TLFeedViewController.h; sourceTree = "<group>"; };
+		F547AFF5198AF361009763B1 /* TLFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLFeedViewController.m; path = Classes/Feed/TLFeedViewController.m; sourceTree = "<group>"; };
+		F547AFF6198AF361009763B1 /* TLFeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TLFeedViewController.xib; path = Classes/Feed/TLFeedViewController.xib; sourceTree = "<group>"; };
+		F547AFFA198AFFFF009763B1 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = Assets/Img/back.png; sourceTree = "<group>"; };
+		F54EED6A198D988700165384 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close.png; path = Assets/Img/close.png; sourceTree = "<group>"; };
+		F54EED6C198DB2A400165384 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F57E8955198E5B51005542BE /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "close@2x.png"; path = "Assets/Img/close@2x.png"; sourceTree = "<group>"; };
+		F57E8958198E5D1C005542BE /* TLAddPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLAddPhotosViewController.h; path = "Classes/Add Photos/TLAddPhotosViewController.h"; sourceTree = "<group>"; };
+		F57E8959198E5D1C005542BE /* TLAddPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLAddPhotosViewController.m; path = "Classes/Add Photos/TLAddPhotosViewController.m"; sourceTree = "<group>"; };
+		F57E895A198E5D1C005542BE /* TLAddPhotosViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TLAddPhotosViewController.xib; path = "Classes/Add Photos/TLAddPhotosViewController.xib"; sourceTree = "<group>"; };
+		F57E896A198E9F75005542BE /* TLAddPhotosCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TLAddPhotosCollectionViewCell.xib; path = "Classes/Add Photos From Instagram Collection View Cell/TLAddPhotosCollectionViewCell.xib"; sourceTree = "<group>"; };
+		F5AA49C7198C3A80004C431D /* LightenDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LightenDB.xcdatamodel; sourceTree = "<group>"; };
+		F5AA49CA198C3BF7004C431D /* TLUserSession+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TLUserSession+Create.h"; path = "Classes/Core Data Model Categories/TLUserSession+Create.h"; sourceTree = "<group>"; };
+		F5AA49CB198C3BF7004C431D /* TLUserSession+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TLUserSession+Create.m"; path = "Classes/Core Data Model Categories/TLUserSession+Create.m"; sourceTree = "<group>"; };
+		F5C5797B198EEFF5009899AA /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkmark.png; path = Assets/Img/checkmark.png; sourceTree = "<group>"; };
+		F5C5797C198EEFF5009899AA /* checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checkmark@2x.png"; path = "Assets/Img/checkmark@2x.png"; sourceTree = "<group>"; };
+		F5C57980198EF2F6009899AA /* TLClickedCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLClickedCollectionViewCell.h; path = "Classes/Clicked Collection View Cell/TLClickedCollectionViewCell.h"; sourceTree = "<group>"; };
+		F5C57981198EF2F6009899AA /* TLClickedCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLClickedCollectionViewCell.m; path = "Classes/Clicked Collection View Cell/TLClickedCollectionViewCell.m"; sourceTree = "<group>"; };
+		F5C57983198EF6D4009899AA /* cellPlaceholderImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cellPlaceholderImage.png; path = Assets/Img/cellPlaceholderImage.png; sourceTree = "<group>"; };
+		F5C57984198EF6D4009899AA /* cellPlaceholderImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cellPlaceholderImage@2x.png"; path = "Assets/Img/cellPlaceholderImage@2x.png"; sourceTree = "<group>"; };
+		F5C57988198EFFEB009899AA /* TLFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLFeed.h; path = "Classes/Core Data Models/TLFeed.h"; sourceTree = "<group>"; };
+		F5C57989198EFFEB009899AA /* TLFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLFeed.m; path = "Classes/Core Data Models/TLFeed.m"; sourceTree = "<group>"; };
+		F5C5798B198F0006009899AA /* TLFeed+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TLFeed+Create.h"; path = "Classes/Core Data Model Categories/TLFeed+Create.h"; sourceTree = "<group>"; };
+		F5C5798C198F0006009899AA /* TLFeed+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TLFeed+Create.m"; path = "Classes/Core Data Model Categories/TLFeed+Create.m"; sourceTree = "<group>"; };
+		F5C57995198FD8B2009899AA /* feedPlaceholderImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = feedPlaceholderImage.png; path = Assets/Img/feedPlaceholderImage.png; sourceTree = "<group>"; };
+		F5C57996198FD8B2009899AA /* feedPlaceholderImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "feedPlaceholderImage@2x.png"; path = "Assets/Img/feedPlaceholderImage@2x.png"; sourceTree = "<group>"; };
+		F5C5799C19901741009899AA /* TLFeed+Delete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TLFeed+Delete.h"; path = "Classes/Core Data Model Categories/TLFeed+Delete.h"; sourceTree = "<group>"; };
+		F5C5799D19901741009899AA /* TLFeed+Delete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TLFeed+Delete.m"; path = "Classes/Core Data Model Categories/TLFeed+Delete.m"; sourceTree = "<group>"; };
+		F5C6CADC19903AEF00A5A526 /* TLHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLHelpViewController.h; path = Classes/Help/TLHelpViewController.h; sourceTree = "<group>"; };
+		F5C6CADD19903AEF00A5A526 /* TLHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLHelpViewController.m; path = Classes/Help/TLHelpViewController.m; sourceTree = "<group>"; };
+		F5C6CADE19903AEF00A5A526 /* TLHelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TLHelpViewController.xib; path = Classes/Help/TLHelpViewController.xib; sourceTree = "<group>"; };
+		F5DAB85E198C530E00135A9D /* noPhoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = noPhoto.jpg; path = Assets/Img/noPhoto.jpg; sourceTree = "<group>"; };
+		F5DAB85F198C530E00135A9D /* noPhotoUser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = noPhotoUser.jpg; path = Assets/Img/noPhotoUser.jpg; sourceTree = "<group>"; };
+		F5E0AAED198EAF420074639F /* TLAddPhotosCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLAddPhotosCollectionViewCell.h; path = "Classes/Add Photos From Instagram Collection View Cell/TLAddPhotosCollectionViewCell.h"; sourceTree = "<group>"; };
+		F5E0AAEE198EAF420074639F /* TLAddPhotosCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLAddPhotosCollectionViewCell.m; path = "Classes/Add Photos From Instagram Collection View Cell/TLAddPhotosCollectionViewCell.m"; sourceTree = "<group>"; };
+		F5E0AAF1198EB1C00074639F /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		F5E0AAF2198EB1C00074639F /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		F5F079B7198AD99500B5D665 /* Lighten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lighten.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F079BA198AD99500B5D665 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5F079BC198AD99500B5D665 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5F079BE198AD99500B5D665 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F5F079C0198AD99500B5D665 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F5F079C4198AD99500B5D665 /* Lighten-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lighten-Info.plist"; sourceTree = "<group>"; };
+		F5F079C6198AD99500B5D665 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5F079C8198AD99500B5D665 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Classes/main.m; sourceTree = "<group>"; };
+		F5F079CA198AD99500B5D665 /* Lighten-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lighten-Prefix.pch"; sourceTree = "<group>"; };
+		F5F079CB198AD99500B5D665 /* TLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TLAppDelegate.h; path = Classes/Delegate/TLAppDelegate.h; sourceTree = "<group>"; };
+		F5F079CC198AD99500B5D665 /* TLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TLAppDelegate.m; path = Classes/Delegate/TLAppDelegate.m; sourceTree = "<group>"; };
+		F5F079D1198AD99500B5D665 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F5F079D7198AD99500B5D665 /* LightenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F079D8198AD99500B5D665 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F5F079E1198AD99500B5D665 /* LightenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LightenTests-Info.plist"; sourceTree = "<group>"; };
+		F5F079E3198AD99500B5D665 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5F079E5198AD99500B5D665 /* LightenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightenTests.m; sourceTree = "<group>"; };
+		F5F079F1198AD9FE00B5D665 /* TLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLLoginViewController.h; path = Classes/Login/TLLoginViewController.h; sourceTree = "<group>"; };
+		F5F079F2198AD9FE00B5D665 /* TLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLLoginViewController.m; path = Classes/Login/TLLoginViewController.m; sourceTree = "<group>"; };
+		F5F079F3198AD9FE00B5D665 /* TLLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TLLoginViewController.xib; path = Classes/Login/TLLoginViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5F079B4198AD99500B5D665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54EED6D198DB2A400165384 /* MapKit.framework in Frameworks */,
+				F5F079BD198AD99500B5D665 /* CoreGraphics.framework in Frameworks */,
+				F5F079C1198AD99500B5D665 /* CoreData.framework in Frameworks */,
+				F5F079BF198AD99500B5D665 /* UIKit.framework in Frameworks */,
+				F5F079BB198AD99500B5D665 /* Foundation.framework in Frameworks */,
+				6F63F9D8717C482EBDB52B86 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F079D4198AD99500B5D665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F079D9198AD99500B5D665 /* XCTest.framework in Frameworks */,
+				F5F079DC198AD99500B5D665 /* CoreData.framework in Frameworks */,
+				F5F079DB198AD99500B5D665 /* UIKit.framework in Frameworks */,
+				F5F079DA198AD99500B5D665 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F511A709198BB0BA004DEB99 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F511A70A198BB0F4004DEB99 /* DINBek.TTF */,
+				F511A70B198BB3DE004DEB99 /* LANENAR.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		F511A718198C2E75004DEB99 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				F511A719198C2EDA004DEB99 /* TLWebViewController.h */,
+				F511A71A198C2EDA004DEB99 /* TLWebViewController.m */,
+				F511A71B198C2EDA004DEB99 /* TLWebViewController.xib */,
+			);
+			name = Web;
+			sourceTree = "<group>";
+		};
+		F511A71E198C31E7004DEB99 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				F5E0AAF0198EB1C00074639F /* AsyncImageView */,
+				F511A71F198C3201004DEB99 /* InstagramKit */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		F511A71F198C3201004DEB99 /* InstagramKit */ = {
+			isa = PBXGroup;
+			children = (
+				F511A720198C3201004DEB99 /* Engine */,
+				F511A723198C3201004DEB99 /* InstagramKit.h */,
+				F511A724198C3201004DEB99 /* InstagramKit.plist */,
+				F511A725198C3201004DEB99 /* Models */,
+			);
+			name = InstagramKit;
+			path = Vendor/InstagramKit;
+			sourceTree = "<group>";
+		};
+		F511A720198C3201004DEB99 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				F511A721198C3201004DEB99 /* InstagramEngine.h */,
+				F511A722198C3201004DEB99 /* InstagramEngine.m */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		F511A725198C3201004DEB99 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F511A726198C3201004DEB99 /* IKUserInPhoto.h */,
+				F511A727198C3201004DEB99 /* IKUserInPhoto.m */,
+				F511A728198C3201004DEB99 /* InstagramComment.h */,
+				F511A729198C3201004DEB99 /* InstagramComment.m */,
+				F511A72A198C3201004DEB99 /* InstagramMedia.h */,
+				F511A72B198C3201004DEB99 /* InstagramMedia.m */,
+				F511A72C198C3201004DEB99 /* InstagramModel.h */,
+				F511A72D198C3201004DEB99 /* InstagramModel.m */,
+				F511A72E198C3201004DEB99 /* InstagramPaginationInfo.h */,
+				F511A72F198C3201004DEB99 /* InstagramPaginationInfo.m */,
+				F511A730198C3201004DEB99 /* InstagramTag.h */,
+				F511A731198C3201004DEB99 /* InstagramTag.m */,
+				F511A732198C3201004DEB99 /* InstagramUser.h */,
+				F511A733198C3201004DEB99 /* InstagramUser.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F511A73D198C380E004DEB99 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				F5AA49C6198C3A80004C431D /* LightenDB.xcdatamodeld */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		F511A741198C3924004DEB99 /* Core Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				F511A748198C398D004DEB99 /* TLUserSession.h */,
+				F511A749198C398D004DEB99 /* TLUserSession.m */,
+				F5C57988198EFFEB009899AA /* TLFeed.h */,
+				F5C57989198EFFEB009899AA /* TLFeed.m */,
+			);
+			name = "Core Data Models";
+			sourceTree = "<group>";
+		};
+		F547AFD0198AE215009763B1 /* Feed Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F547AFD1198AE228009763B1 /* TLFeedCellViewController.h */,
+				F547AFD2198AE228009763B1 /* TLFeedCellViewController.m */,
+				F547AFD3198AE228009763B1 /* TLFeedCellViewController.xib */,
+			);
+			name = "Feed Cell";
+			sourceTree = "<group>";
+		};
+		F547AFD7198AE26D009763B1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F5C5799F19903AA1009899AA /* Help */,
+				F5C5797F198EF2B5009899AA /* Clicked Collection View Cell */,
+				F57E8960198E9316005542BE /* Add Photos From Instagram Collection View Cell */,
+				F57E8957198E5C8D005542BE /* Add Photos */,
+				F5AA49C9198C3BC0004C431D /* Core Data Model Categories */,
+				F511A741198C3924004DEB99 /* Core Data Models */,
+				F511A73D198C380E004DEB99 /* Core Data */,
+				F511A718198C2E75004DEB99 /* Web */,
+				F547AFF2198AF334009763B1 /* Feed */,
+				F547AFD0198AE215009763B1 /* Feed Cell */,
+				F5F079F0198AD9E200B5D665 /* Login */,
+				F5F079EF198AD99F00B5D665 /* Delegate */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		F547AFD8198AE274009763B1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F511A709198BB0BA004DEB99 /* Fonts */,
+				F547AFD9198AE278009763B1 /* Img */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		F547AFD9198AE278009763B1 /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				F5C57995198FD8B2009899AA /* feedPlaceholderImage.png */,
+				F5C57996198FD8B2009899AA /* feedPlaceholderImage@2x.png */,
+				F57E8955198E5B51005542BE /* close@2x.png */,
+				F5C5797B198EEFF5009899AA /* checkmark.png */,
+				F5C5797C198EEFF5009899AA /* checkmark@2x.png */,
+				F54EED6A198D988700165384 /* close.png */,
+				F5C57983198EF6D4009899AA /* cellPlaceholderImage.png */,
+				F5C57984198EF6D4009899AA /* cellPlaceholderImage@2x.png */,
+				F5DAB85E198C530E00135A9D /* noPhoto.jpg */,
+				F5DAB85F198C530E00135A9D /* noPhotoUser.jpg */,
+				F511A70E198BB9E3004DEB99 /* clock@2x.png */,
+				F547AFFA198AFFFF009763B1 /* back.png */,
+				F547AFEE198AF005009763B1 /* waste.png */,
+				F511A714198BBB9C004DEB99 /* menu.png */,
+				F511A715198BBB9C004DEB99 /* menu@2x.png */,
+				F511A710198BBA93004DEB99 /* heart@2x.png */,
+				F547AFEC198AEF7E009763B1 /* plus.png */,
+				F511A712198BBB39004DEB99 /* location@2x.png */,
+				F547AFEA198AEEFD009763B1 /* menu.png */,
+				F547AFE8198AED4E009763B1 /* location.png */,
+				F547AFE0198AE823009763B1 /* clock.png */,
+				F547AFDC198AE545009763B1 /* feedPhotoOneUser.jpg */,
+				F547AFDA198AE321009763B1 /* feedPhotoOne.jpg */,
+				F547AFE6198AEA8E009763B1 /* heart.png */,
+			);
+			name = Img;
+			sourceTree = "<group>";
+		};
+		F547AFF2198AF334009763B1 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				F547AFF4198AF361009763B1 /* TLFeedViewController.h */,
+				F547AFF5198AF361009763B1 /* TLFeedViewController.m */,
+				F547AFF6198AF361009763B1 /* TLFeedViewController.xib */,
+			);
+			name = Feed;
+			sourceTree = "<group>";
+		};
+		F57E8957198E5C8D005542BE /* Add Photos */ = {
+			isa = PBXGroup;
+			children = (
+				F57E8958198E5D1C005542BE /* TLAddPhotosViewController.h */,
+				F57E8959198E5D1C005542BE /* TLAddPhotosViewController.m */,
+				F57E895A198E5D1C005542BE /* TLAddPhotosViewController.xib */,
+			);
+			name = "Add Photos";
+			sourceTree = "<group>";
+		};
+		F57E8960198E9316005542BE /* Add Photos From Instagram Collection View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F57E896A198E9F75005542BE /* TLAddPhotosCollectionViewCell.xib */,
+				F5E0AAED198EAF420074639F /* TLAddPhotosCollectionViewCell.h */,
+				F5E0AAEE198EAF420074639F /* TLAddPhotosCollectionViewCell.m */,
+			);
+			name = "Add Photos From Instagram Collection View Cell";
+			sourceTree = "<group>";
+		};
+		F5AA49C9198C3BC0004C431D /* Core Data Model Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F5AA49CA198C3BF7004C431D /* TLUserSession+Create.h */,
+				F5AA49CB198C3BF7004C431D /* TLUserSession+Create.m */,
+				F5C5798B198F0006009899AA /* TLFeed+Create.h */,
+				F5C5798C198F0006009899AA /* TLFeed+Create.m */,
+				F5C5799C19901741009899AA /* TLFeed+Delete.h */,
+				F5C5799D19901741009899AA /* TLFeed+Delete.m */,
+			);
+			name = "Core Data Model Categories";
+			sourceTree = "<group>";
+		};
+		F5C5797F198EF2B5009899AA /* Clicked Collection View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F5C57980198EF2F6009899AA /* TLClickedCollectionViewCell.h */,
+				F5C57981198EF2F6009899AA /* TLClickedCollectionViewCell.m */,
+			);
+			name = "Clicked Collection View Cell";
+			sourceTree = "<group>";
+		};
+		F5C5799F19903AA1009899AA /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				F5C6CADC19903AEF00A5A526 /* TLHelpViewController.h */,
+				F5C6CADD19903AEF00A5A526 /* TLHelpViewController.m */,
+				F5C6CADE19903AEF00A5A526 /* TLHelpViewController.xib */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+		F5E0AAF0198EB1C00074639F /* AsyncImageView */ = {
+			isa = PBXGroup;
+			children = (
+				F5E0AAF1198EB1C00074639F /* AsyncImageView.h */,
+				F5E0AAF2198EB1C00074639F /* AsyncImageView.m */,
+			);
+			name = AsyncImageView;
+			path = Vendor/AsyncImageView;
+			sourceTree = "<group>";
+		};
+		F5F079AE198AD99500B5D665 = {
+			isa = PBXGroup;
+			children = (
+				F5F079C2198AD99500B5D665 /* Lighten */,
+				F5F079DF198AD99500B5D665 /* LightenTests */,
+				F5F079B9198AD99500B5D665 /* Frameworks */,
+				F5F079B8198AD99500B5D665 /* Products */,
+				3F532557239043F39871B882 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		F5F079B8198AD99500B5D665 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5F079B7198AD99500B5D665 /* Lighten.app */,
+				F5F079D7198AD99500B5D665 /* LightenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5F079B9198AD99500B5D665 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F54EED6C198DB2A400165384 /* MapKit.framework */,
+				F5F079BA198AD99500B5D665 /* Foundation.framework */,
+				F5F079BC198AD99500B5D665 /* CoreGraphics.framework */,
+				F5F079BE198AD99500B5D665 /* UIKit.framework */,
+				F5F079C0198AD99500B5D665 /* CoreData.framework */,
+				F5F079D8198AD99500B5D665 /* XCTest.framework */,
+				DA52780DAD764417B72B984B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5F079C2198AD99500B5D665 /* Lighten */ = {
+			isa = PBXGroup;
+			children = (
+				F547AFD8198AE274009763B1 /* Assets */,
+				F547AFD7198AE26D009763B1 /* Classes */,
+				F511A71E198C31E7004DEB99 /* Vendor */,
+				F5F079D1198AD99500B5D665 /* Images.xcassets */,
+				F5F079C3198AD99500B5D665 /* Supporting Files */,
+			);
+			path = Lighten;
+			sourceTree = "<group>";
+		};
+		F5F079C3198AD99500B5D665 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5F079C4198AD99500B5D665 /* Lighten-Info.plist */,
+				F5F079C5198AD99500B5D665 /* InfoPlist.strings */,
+				F5F079C8198AD99500B5D665 /* main.m */,
+				F5F079CA198AD99500B5D665 /* Lighten-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5F079DF198AD99500B5D665 /* LightenTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5F079E5198AD99500B5D665 /* LightenTests.m */,
+				F5F079E0198AD99500B5D665 /* Supporting Files */,
+			);
+			path = LightenTests;
+			sourceTree = "<group>";
+		};
+		F5F079E0198AD99500B5D665 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5F079E1198AD99500B5D665 /* LightenTests-Info.plist */,
+				F5F079E2198AD99500B5D665 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5F079EF198AD99F00B5D665 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				F5F079CB198AD99500B5D665 /* TLAppDelegate.h */,
+				F5F079CC198AD99500B5D665 /* TLAppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		F5F079F0198AD9E200B5D665 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F5F079F1198AD9FE00B5D665 /* TLLoginViewController.h */,
+				F5F079F2198AD9FE00B5D665 /* TLLoginViewController.m */,
+				F5F079F3198AD9FE00B5D665 /* TLLoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5F079B6198AD99500B5D665 /* Lighten */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F079E9198AD99500B5D665 /* Build configuration list for PBXNativeTarget "Lighten" */;
+			buildPhases = (
+				8954209A0FF641F09C0081A8 /* Check Pods Manifest.lock */,
+				F5F079B3198AD99500B5D665 /* Sources */,
+				F5F079B4198AD99500B5D665 /* Frameworks */,
+				F5F079B5198AD99500B5D665 /* Resources */,
+				F7B7631DF7C8457AA93AE911 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lighten;
+			productName = Lighten;
+			productReference = F5F079B7198AD99500B5D665 /* Lighten.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5F079D6198AD99500B5D665 /* LightenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F079EC198AD99500B5D665 /* Build configuration list for PBXNativeTarget "LightenTests" */;
+			buildPhases = (
+				F5F079D3198AD99500B5D665 /* Sources */,
+				F5F079D4198AD99500B5D665 /* Frameworks */,
+				F5F079D5198AD99500B5D665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5F079DE198AD99500B5D665 /* PBXTargetDependency */,
+			);
+			name = LightenTests;
+			productName = LightenTests;
+			productReference = F5F079D7198AD99500B5D665 /* LightenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5F079AF198AD99500B5D665 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Tower Labs.";
+				TargetAttributes = {
+					F5F079D6198AD99500B5D665 = {
+						TestTargetID = F5F079B6198AD99500B5D665;
+					};
+				};
+			};
+			buildConfigurationList = F5F079B2198AD99500B5D665 /* Build configuration list for PBXProject "Lighten" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5F079AE198AD99500B5D665;
+			productRefGroup = F5F079B8198AD99500B5D665 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5F079B6198AD99500B5D665 /* Lighten */,
+				F5F079D6198AD99500B5D665 /* LightenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5F079B5198AD99500B5D665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F511A70D198BB568004DEB99 /* DINBek.TTF in Resources */,
+				F57E896B198E9F75005542BE /* TLAddPhotosCollectionViewCell.xib in Resources */,
+				F511A70C198BB55C004DEB99 /* LANENAR.ttf in Resources */,
+				F57E895C198E5D1C005542BE /* TLAddPhotosViewController.xib in Resources */,
+				F5C5797E198EEFF5009899AA /* checkmark@2x.png in Resources */,
+				F5DAB860198C530E00135A9D /* noPhoto.jpg in Resources */,
+				F547AFE1198AE823009763B1 /* clock.png in Resources */,
+				F547AFF8198AF361009763B1 /* TLFeedViewController.xib in Resources */,
+				F5C6CAE019903AEF00A5A526 /* TLHelpViewController.xib in Resources */,
+				F547AFE7198AEA8E009763B1 /* heart.png in Resources */,
+				F547AFD5198AE228009763B1 /* TLFeedCellViewController.xib in Resources */,
+				F547AFDB198AE321009763B1 /* feedPhotoOne.jpg in Resources */,
+				F547AFE9198AED4E009763B1 /* location.png in Resources */,
+				F5C5797D198EEFF5009899AA /* checkmark.png in Resources */,
+				F57E8956198E5B51005542BE /* close@2x.png in Resources */,
+				F5F079F5198AD9FE00B5D665 /* TLLoginViewController.xib in Resources */,
+				F5C57985198EF6D4009899AA /* cellPlaceholderImage.png in Resources */,
+				F511A717198BBB9C004DEB99 /* menu@2x.png in Resources */,
+				F511A716198BBB9C004DEB99 /* menu.png in Resources */,
+				F5F079C7198AD99500B5D665 /* InfoPlist.strings in Resources */,
+				F54EED6B198D988700165384 /* close.png in Resources */,
+				F547AFEF198AF005009763B1 /* waste.png in Resources */,
+				F547AFFB198AFFFF009763B1 /* back.png in Resources */,
+				F5C57997198FD8B2009899AA /* feedPlaceholderImage.png in Resources */,
+				F547AFED198AEF7E009763B1 /* plus.png in Resources */,
+				F511A70F198BB9E3004DEB99 /* clock@2x.png in Resources */,
+				F547AFDD198AE545009763B1 /* feedPhotoOneUser.jpg in Resources */,
+				F5C57998198FD8B2009899AA /* feedPlaceholderImage@2x.png in Resources */,
+				F511A71D198C2EDA004DEB99 /* TLWebViewController.xib in Resources */,
+				F511A713198BBB39004DEB99 /* location@2x.png in Resources */,
+				F5DAB861198C530E00135A9D /* noPhotoUser.jpg in Resources */,
+				F5F079D2198AD99500B5D665 /* Images.xcassets in Resources */,
+				F511A735198C3201004DEB99 /* InstagramKit.plist in Resources */,
+				F5C57986198EF6D4009899AA /* cellPlaceholderImage@2x.png in Resources */,
+				F511A711198BBA93004DEB99 /* heart@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F079D5198AD99500B5D665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F079E4198AD99500B5D665 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8954209A0FF641F09C0081A8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F7B7631DF7C8457AA93AE911 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5F079B3198AD99500B5D665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F511A734198C3201004DEB99 /* InstagramEngine.m in Sources */,
+				F5C5798D198F0006009899AA /* TLFeed+Create.m in Sources */,
+				F5AA49CC198C3BF7004C431D /* TLUserSession+Create.m in Sources */,
+				F5C6CADF19903AEF00A5A526 /* TLHelpViewController.m in Sources */,
+				F511A738198C3201004DEB99 /* InstagramMedia.m in Sources */,
+				F511A73C198C3201004DEB99 /* InstagramUser.m in Sources */,
+				F511A73B198C3201004DEB99 /* InstagramTag.m in Sources */,
+				F5F079CD198AD99500B5D665 /* TLAppDelegate.m in Sources */,
+				F5F079F4198AD9FE00B5D665 /* TLLoginViewController.m in Sources */,
+				F511A74A198C398D004DEB99 /* TLUserSession.m in Sources */,
+				F511A737198C3201004DEB99 /* InstagramComment.m in Sources */,
+				F511A739198C3201004DEB99 /* InstagramModel.m in Sources */,
+				F5E0AAEF198EAF420074639F /* TLAddPhotosCollectionViewCell.m in Sources */,
+				F5C5799E19901741009899AA /* TLFeed+Delete.m in Sources */,
+				F57E895B198E5D1C005542BE /* TLAddPhotosViewController.m in Sources */,
+				F5E0AAF3198EB1C00074639F /* AsyncImageView.m in Sources */,
+				F5C57982198EF2F6009899AA /* TLClickedCollectionViewCell.m in Sources */,
+				F5AA49C8198C3A80004C431D /* LightenDB.xcdatamodeld in Sources */,
+				F547AFD4198AE228009763B1 /* TLFeedCellViewController.m in Sources */,
+				F511A73A198C3201004DEB99 /* InstagramPaginationInfo.m in Sources */,
+				F511A736198C3201004DEB99 /* IKUserInPhoto.m in Sources */,
+				F547AFF7198AF361009763B1 /* TLFeedViewController.m in Sources */,
+				F5C5798A198EFFEB009899AA /* TLFeed.m in Sources */,
+				F511A71C198C2EDA004DEB99 /* TLWebViewController.m in Sources */,
+				F5F079C9198AD99500B5D665 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F079D3198AD99500B5D665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F079E6198AD99500B5D665 /* LightenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5F079DE198AD99500B5D665 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5F079B6198AD99500B5D665 /* Lighten */;
+			targetProxy = F5F079DD198AD99500B5D665 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5F079C5198AD99500B5D665 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F079C6198AD99500B5D665 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F5F079E2198AD99500B5D665 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F079E3198AD99500B5D665 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5F079E7198AD99500B5D665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5F079E8198AD99500B5D665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5F079EA198AD99500B5D665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F532557239043F39871B882 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lighten/Lighten-Prefix.pch";
+				INFOPLIST_FILE = "Lighten/Lighten-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5F079EB198AD99500B5D665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F532557239043F39871B882 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lighten/Lighten-Prefix.pch";
+				INFOPLIST_FILE = "Lighten/Lighten-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F5F079ED198AD99500B5D665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lighten.app/Lighten";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lighten/Lighten-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LightenTests/LightenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F5F079EE198AD99500B5D665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lighten.app/Lighten";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lighten/Lighten-Prefix.pch";
+				INFOPLIST_FILE = "LightenTests/LightenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5F079B2198AD99500B5D665 /* Build configuration list for PBXProject "Lighten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F079E7198AD99500B5D665 /* Debug */,
+				F5F079E8198AD99500B5D665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F079E9198AD99500B5D665 /* Build configuration list for PBXNativeTarget "Lighten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F079EA198AD99500B5D665 /* Debug */,
+				F5F079EB198AD99500B5D665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F079EC198AD99500B5D665 /* Build configuration list for PBXNativeTarget "LightenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F079ED198AD99500B5D665 /* Debug */,
+				F5F079EE198AD99500B5D665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F5AA49C6198C3A80004C431D /* LightenDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F5AA49C7198C3A80004C431D /* LightenDB.xcdatamodel */,
+			);
+			currentVersion = F5AA49C7198C3A80004C431D /* LightenDB.xcdatamodel */;
+			name = LightenDB.xcdatamodeld;
+			path = "Classes/Core Data/LightenDB.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F5F079AF198AD99500B5D665 /* Project object */;
+}
